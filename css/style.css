@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: #d4d4d4;
+}
+
+header {
+    min-height: 700px;
+    background-color: #1c1c1c;
+
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+
+}
+
+header .container {
+    background-image: url('../img/moon-rocket.png');
+    background-repeat: no-repeat;
+    background-position: 520px 130px;
+    padding-top: 55px;
+    padding-bottom: 180px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.site-menu {
+    display: inherit;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 63px;
+}
+
+.site-menu li:nth-child(2) {
+    margin-left: 33px;
+}
+
+.site-menu li:nth-child(3) {
+    margin-left: 32px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.about-us {
+    width: 270px;
+    min-height: 298px;
+    margin-left: 122px;
+    margin-top: 107px;
+}
+
+.about-us h1 {
+    font-size: 45px;
+    line-height: 50px;
+    font-family: 'Courier New', monospace;
+    color: white;
+    font-weight: bold;
+}
+
+.about-us p {
+    font-size: 14px;
+    margin-top: 64px;
+    text-align: left;
+    color: #d4d4d4;
+}
+
+.button-yellow {
+    background: rgb(243, 201, 14);
+    margin-top: 58px;
+    height: 50px;
+    width: 240px;
+    border-radius: 25px;
+    border: 0;
+    position: relative;
+}
+
+.button-yellow:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.button-yellow .button-desription {
+    position: absolute;
+    left: 27px;
+    bottom: 17px;
+    color: #222222;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.arrow-dark {
+    position: absolute;
+    margin-left: 59px;
+}
+
+.contact {
+    display: inherit;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 520px;
+}
+
+.contact li:nth-child(2) {
+    margin-left: 24px;
+}
+
+.advantages {
+    background-color: #131313;
+    min-height: 328px;
+    padding: 85px;
+}
+
+.advantages .container .items {
+    display: inline-flex;
+}
+
+.advantages .container .items .item:nth-child(2) {
+    margin-left: 92px;
+}
+
+.advantages .container .items .item:nth-child(3) {
+    margin-left: 104px;
+}
+
+.advantages .container .items .item:nth-child(4) {
+    margin-left: 111px;
+}
+
+.adv-descriptions {
+    margin-top: 39px;
+}
+
+.content {
+    padding: 83px 0 82px 0;
+}
+
+.content .container .moon-travelling {
+    height: 346px;
+    width: 440px;
+}
+
+.content .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.moon-tavelling {
+    margin-left: 80px;
+}
+
+.moon-lable {
+    margin-bottom: 55px;
+    width: 439px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.moon-description {
+    width: 439px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.you-need {
+    margin-top: 83px;
+    width: 383px;
+}
+
+.content .container .you-need ul li {
+    position: relative;
+    width: 358px;
+    list-style-type: none;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.moon-lable-bot {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+}
+
+.content .container .you-need ul {
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.content .container .you-need ul li span {
+    font-weight: bold;
+    color: black;
+}
+
+.content .container .you-need ul li::before {
+    position: absolute;
+    left: -22px;
+    top: 25%;
+    content: ' ';
+    display: block;
+    background-color: rgb(243, 201, 14);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+.content .container .you-need:last-child {
+    margin-left: 138px;
+}
+
+.line {
+    background-color: #1c1c1c;
+    height: 9px;
+}
+
+.Space-Z {
+    margin-left: 24px;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #d4d4d4;
+}
+
+
+.lable {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.grey_line {
+    background-color: #1c1c1c;
+    height: 9px;
+}
+
+.footer {
+    background-color: black;
+    padding: 63px 0 86px 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .container .footer_item .label {
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer .container .footer_item .label .Space-Z {
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #d4d4d4;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+
+}
+
+.footer .container .footer_item .copyright {
+    font-size: 13px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555555;
+    margin-top: 111px;
+}
+
+.footer .container .footer_item .list {
+    margin-top: 58px;
+}
+
+.footer .container .footer_item .list a {
+    font-size: 13px;
+    color: #888888;
+    text-decoration: none;
+}
+
+.footer .container .footer_item .no_border {
+    border-bottom: none;
+}
+
+.footer .container .footer_item .grey_border {
+    border-bottom: 1px solid #d4d4d4;
+    min-width: 180px;
+}
+
+.footer .container .footer_item:nth-child(2) {
+    margin-left: 113px;
+}
+
+.footer .container .footer_item:nth-child(3) {
+    margin-left: 81px;
+}
+
+.footer .container .footer_item:nth-child(4) {
+    margin-left: 80px;
+}
+
+.text {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ᕦ(ò_óˇ)ᕤ   (╯‵□′)╯︵┻━┻  ( ͡° ͜ʖ ͡°)  ( ͡ಠ ʖ̯ ͡ಠ)
+
+(￢︿̫̿￢☆) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
